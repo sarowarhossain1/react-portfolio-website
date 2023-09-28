@@ -15,9 +15,9 @@ const Portfolio = () => {
        </div>
        <h3>This is a Portfolio item title</h3>
        <div className='portfolio_item-cta'>
-       <a href="https://github.com/" className='btn' target='blank'> Client site</a>
-       <a href="https://github.com/" className='btn' target='blank'> Servr site</a>
-       <a href="https://toy-marketplace-7639c.web.app/" className='btn btn-primary' target='blank'> Live Site</a>
+       <a href="" className='btn' target='blank'> Client site</a>
+       <a href="" className='btn' target='blank'> Servr site</a>
+       <a href="" className='btn btn-primary' target='blank'> Live Site</a>
        </div>
      </article>
      <article className='portfolio_item'>
@@ -26,9 +26,9 @@ const Portfolio = () => {
        </div>
        <h3>This is a Portfolio item title</h3>
        <div className='portfolio_item-cta'>
-       <a href="https://github.com/" className='btn' target='blank'> Client site</a>
-       <a href="https://github.com/" className='btn' target='blank'> Servr site</a>
-       <a href="https://toy-marketplace-7639c.web.app/" className='btn btn-primary' target='blank'> Live Site</a>
+       <a href="" className='btn' target='blank'> Client site</a>
+       <a href="" className='btn' target='blank'> Servr site</a>
+       <a href="" className='btn btn-primary' target='blank'> Live Site</a>
        </div>
      </article>
      <article className='portfolio_item'>
@@ -37,9 +37,9 @@ const Portfolio = () => {
        </div>
        <h3>This is a Portfolio item title</h3>
       <div className='portfolio_item-cta'>
-       <a href="https://github.com/" className='btn' target='blank'> Client site</a>
-       <a href="https://github.com/" className='btn' target='blank'> Servr site</a>
-       <a href="https://toy-marketplace-7639c.web.app/" className='btn btn-primary' target='blank'> Live Site</a>
+       <a href="" className='btn' target='blank'> Client site</a>
+       <a href="" className='btn' target='blank'> Servr site</a>
+       <a href="" className='btn btn-primary' target='blank'> Live Site</a>
       </div>
      </article>
      <article className='portfolio_item'>
@@ -48,9 +48,9 @@ const Portfolio = () => {
        </div>
        <h3>This is a Portfolio item title</h3>
        <div className='portfolio_item-cta'>
-       <a href="https://github.com/" className='btn' target='blank'> Client site</a>
-       <a href="https://github.com/" className='btn' target='blank'> Servr site</a>
-       <a href="https://toy-marketplace-7639c.web.app/" className='btn btn-primary' target='blank'> Live Site</a>
+       <a href="" className='btn' target='blank'> Client site</a>
+       <a href="" className='btn' target='blank'> Servr site</a>
+       <a href="" className='btn btn-primary' target='blank'> Live Site</a>
        </div>
      </article>
      <article className='portfolio_item'>
@@ -59,20 +59,9 @@ const Portfolio = () => {
        </div>
        <h3>This is a Portfolio item title</h3>
        <div className='portfolio_item-cta'>
-       <a href="https://github.com/" className='btn' target='blank'> Client site</a>
-       <a href="https://github.com/" className='btn' target='blank'> Servr site</a>
-       <a href="https://toy-marketplace-7639c.web.app/" className='btn btn-primary' target='blank'> Live Site</a>
-       </div>
-     </article>
-     <article className='portfolio_item'>
-       <div className="portfolio_item-image">
-         <img src={IMG1} alt="" />
-       </div>
-       <h3>This is a Portfolio item title</h3>
-       <div className='portfolio_item-cta'>
-       <a href="https://github.com/" className='btn' target='blank'> Client site</a>
-       <a href="https://github.com/" className='btn' target='blank'> Servr site</a>
-       <a href="https://toy-marketplace-7639c.web.app/" className='btn btn-primary' target='blank'> Live Site</a>
+       <a href="" className='btn' target='blank'> Client site</a>
+       <a href="" className='btn' target='blank'> Servr site</a>
+       <a href="" className='btn btn-primary' target='blank'> Live Site</a>
        </div>
      </article>
     </div>
