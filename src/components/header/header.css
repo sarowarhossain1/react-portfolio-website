@@ -1,0 +1,141 @@
+.home_subtitle,
+.home_job{
+    font-weight: 700;
+}
+.home_subtitle,
+.home_job span{
+    font-size: var(--small-font-size);
+    
+}
+.home_subtitle span,
+.home_title span{
+    color: var(--primary-color);
+}
+.home_job b{
+    font-family: var(--second-font);
+    font-size: var(--h3-font-size);
+    margin-left: 10px;
+}
+.home_title{
+    font-size: var(--h5-font-size);
+    text-shadow: 2px 2px hsl(0, 0%, 0%), -2px hsl(0, 0%, 0%), 2px -2px hsl(0, 0%, 0%), -2px -2px hsl(0, 0%, 0%), 5px 5px 0 rgb(0 0 0 / 20%);
+    line-height: 1.2;
+    margin-top: 15px;
+}
+header{
+    height: 100vh;
+    padding-top: 5rem;
+    overflow: hidden;
+    
+}
+.header_container{
+    text-align: center;
+    height:100%;
+    position: relative;
+   
+}
+.cta{
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+   
+}
+ a.btn{
+    background: var(--hover-color);
+    color: var(--color-bg);
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: .6s;
+    box-shadow: var(--neon-box-shadow);
+    border-radius: 5px;
+    position: relative; overflow: hidden;
+    z-index: 1;
+}
+a.btn:hover{
+    color: var(--hover-color);
+}
+a.btn::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: var(--color-bg);
+    width:0;
+    height: 100%;
+    z-index: -1;
+    transition: .4s;
+}
+a.btn:hover::before{
+    width: 100%;
+}
+.resume_icon{
+    gap:1rem;
+}
+.header_social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+
+}
+.header_social::after{
+    content:''; 
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary );
+}
+
+
+.me{
+    border: 2px solid var(--hover-color);
+    width: 16rem;
+    height: 30rem;
+    position: absolute;
+    left: calc(50% - 8rem);
+    margin-top: 4rem;
+    border-radius: 1rem 1rem 0 0;
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+   
+ 
+}
+
+.scroll_down{
+    position: absolute;
+    right: -2.3rem;
+    bottom: 2.5rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+
+}
+
+/*  ------------ MEDIA QUERIES (MEDIUM DEVICE)--------    */
+
+@media screen and (max-width:1024px) {
+     header{
+        height: 68vh;
+     }
+      }
+    
+
+
+    /*  ------------ MEDIA QUERIES (SMALL DEVICE)--------    */
+
+@media screen and (max-width:600px) {
+   header{
+    height: 100vh;
+   }
+
+   .header_social,
+   .scroll_down{
+    display: none;
+   }
+}
+

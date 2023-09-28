@@ -1,0 +1,209 @@
+.skill-main{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 50px;
+    position: relative;
+    transition: all 0.7s var(--transition);
+}
+.skill-bar{
+    margin-bottom: 2.3rem;
+}
+.skill-main h3{
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.skill-left .skill-bar .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+.skill-left .skill-bar .bar{
+    width: 100%;
+    height: 10px;
+    background-color: white;
+    border-radius: 25px;
+    margin-top: 10px;
+    position: relative;
+}
+.skill-bar .bar span{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    background: var(--hover-color);
+    border-radius: 25px;
+    box-shadow: var(--neon-box-shadow);
+}
+.skill-bar .bar .html{
+    width: 90%;
+    animation: html 2s;
+}
+.skill-bar .bar .css{
+    width: 80%;
+    animation: css 3s;
+    background: rgb(255, 247, 0);
+}
+.skill-bar .bar .javaScript{
+    width: 75%;
+    animation: 4s;
+    background: rgba(255, 106, 0, 0.693);
+}
+.skill-bar .bar .react{
+    width: 85%;
+    animation: react 5s;
+    background: rgb(202, 10, 42);
+}
+.skill-bar .bar .tailwind{
+    width: 80%;
+    animation: tailwind 6s;
+    background: rgb(255, 0, 111);
+}
+.skill-bar .bar .bootstrap{
+    width: 80%;
+    animation: bootstrap 7s;
+    background: rgb(205, 50, 50);
+}
+.skill-bar .bar .node{
+    width: 75%;
+    animation: node 2s;
+    background: rgb(255, 0, 170);
+}
+.skill-bar .bar .express{
+    width: 70%;
+    animation: express 3s;
+    background: rgb(255, 213, 0);
+}
+.skill-bar .bar .mongoDB{
+    width: 60%;
+    animation: mongoDB 4s;
+    background: rgba(216, 112, 147, 0.881);
+}
+.skill-bar .bar .firebase{
+    width: 35%;
+    animation: firebase 5s;
+    background: rgba(187, 255, 0, 0.651);
+}
+
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width:90%;
+    }
+}
+
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width:80%;
+    }
+}
+@keyframes javaScript{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width:75%;
+    }
+}
+
+@keyframes react{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width:85%;
+    }
+}
+
+@keyframes tailwind{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width:80%;
+    }
+}
+@keyframes bootstrap{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width:85%;
+    }
+}
+@keyframes node{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width:75%;
+    }
+}
+@keyframes express{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width:70%;
+    }
+}
+@keyframes mongoDB{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width:60%;
+    }
+}
+@keyframes firebase{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width:35%;
+    }
+}
+.skill_content{
+    font-family: var(--second-font);
+    font-size: var(--h3-font-size);
+}
+.skill_content span{
+    color:var(--primary-color);
+}
+
+/*  ------------ MEDIA QUERIES (MEDIUM DEVICE)--------    */
+
+@media screen and (max-width:1024px) {
+    .skill-main{
+     display: grid;
+     grid-template-columns: 1fr;
+     gap: 0;
+    }
+    .skill-main > div {
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+    
+      }
+    
+ 
+ 
+    /*  ------------ MEDIA QUERIES (SMALL DEVICE)--------    */
+ 
+ @media screen and (max-width:600px) {
+   .skill-main{
+    gap: 1rem;
+   }
+   .skill-main > div {
+    width: 100%;
+    padding: 2rem;
+   }
+ }

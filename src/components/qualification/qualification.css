@@ -1,0 +1,111 @@
+.qualification_tabs{
+    display: flex;
+    gap: 1rem;
+}
+.qualification_container{
+    max-width: 1600px;
+}
+.qualification_tabs{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    position: relative;
+    transition: all 0.7s var(--transition);
+}
+.qualification_button{
+    font-size: var(--largest-font-size);
+    font-weight: 600;
+    color: var( --color-primary);
+    margin: 1rem;
+    cursor: pointer;
+    color: var(--primary-color);
+}
+.qualification_button:hover{
+    color: var(--color-white);
+}
+.qualification_icon{
+    font-size: 1rem;
+    
+
+}
+.qualification_active{
+    color: var( black);
+}
+.qualification_sections{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+}
+/* .qualification_content{
+    display: none;
+} */
+.qualification_content-active {
+    display: block;
+}
+.qualification_data{
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    column-gap: 1.5rem;
+
+}
+.qualification_title{
+    font-size: 14px;
+    font-weight: 500;
+}
+.qualification_subtitle{
+    display: inline-block;
+    font-size: 14px;
+    
+   
+}
+.qualification_calender{
+    font-size: 12px;
+}
+.qualification_rounder{
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-color: var( --color-primary);
+    border-radius: 50%;
+}
+.qualification_line{
+    display: block;
+    width: 1px;
+    height: 100%;
+    background-color: var( --color-white);
+    transform: translate(6px, -7px);
+}
+.qualification_title{
+   font-size: var( --normal-font-size);
+    font-weight: 700;
+  
+}
+.qualification_subtitle{
+    font-size: 14px;
+    color: var( --color-light);
+}
+
+
+/*  ------------ MEDIA QUERIES (MEDIUM DEVICE)--------    */
+
+@media screen and (max-width:1024px) {
+    .qualification_data{
+     display: grid;
+     grid-template-columns: 1fr;
+     padding: 2rem;
+     gap: 0;
+    }
+    
+    
+      }
+    
+ 
+ 
+    /*  ------------ MEDIA QUERIES (SMALL DEVICE)--------    */
+ 
+ @media screen and (max-width:600px) {
+   .qualification_data{
+    gap: 1rem;
+   }
+   
+ }
