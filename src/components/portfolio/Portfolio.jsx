@@ -16,7 +16,7 @@ const Portfolio = () => {
        <h3>MERN Stack Project</h3>
        <div className='portfolio_item-cta'>
        <a href="https://github.com/sarowarhossain1/b712-summer-camp-client2-side-sarowarhossain1" className='btn' target='blank'> Client site</a>
-       <a href="https://github.com/programming-hero-web-course1/b7a12-summer-camp-server_side-sarowarhossain1" className='btn' target='blank'> Server site</a>
+       <a href="https://github.com/sarowarhossain1/b7a12-summer-camp-server_side2-sarowarhossain1" className='btn' target='blank'> Server site</a>
        <a href="https://summer-camp-c1d6c.web.app/" className='btn btn-primary' target='blank'> Live Site</a>
        </div>
      </article>
